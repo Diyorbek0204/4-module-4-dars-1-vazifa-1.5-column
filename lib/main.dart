@@ -4,9 +4,9 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        body: Row(
+        body: Column(
           mainAxisSize: MainAxisSize.max,
-          children: [MyBox(), MyBox(), MyBox(), MyBox()],
+          children: [MyBox(), MyBox()],
         ),
       ),
     ),
